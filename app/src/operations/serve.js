@@ -1,4 +1,4 @@
-export { Application, send, path } from '../deps.js';
+import { Application, send, path } from '../deps.js';
 import config from '../config.js';
 
 const dir = new URL('.', import.meta.url).pathname;
